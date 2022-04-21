@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IsInteger</title>
+</head>
+<body>
+    <button onclick="checkInt">Check The Number is Integer or Not</button>
+    <script >
+        
+    let ch=document.querySelector('button');
+    ch.addEventListener('click',checkInt);
+    function checkInt(){
+        let x=prompt('Enter a number');
+        if(x%1===0){
+            console.log('It is integer');
+        }
+        else{
+            console.log('Not an integer');
+        }
+    }
+    </script>
+</body>
+</html>
