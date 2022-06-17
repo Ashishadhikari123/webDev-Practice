@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        h1{
+            font-size: 38px;
+        }
+        #outPopUp {
+            padding: 50px;    
+            position: absolute;
+            width: 500px;
+            height: 450px;
+            top: 30%;
+            left: 500px;
+            margin: -100px 0 0 -150px;
+            background-color: rgb(0, 255, 255);
+            border: 2px solid black;
+                }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <div id="outPopUp"> 
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required> <br> <br> <br>
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" name="mname"> <br> <br> <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required> <br><br><br>
+        <label for="course">Choose Course</label>
+        <select>
+            <option value="choose">Choose any one</option>
+            <option value="btech">B.Tech</option>
+            <option value="bca">BCA</option>
+            <option value="mca">MCA</option>
+            <option value="hm">Hotel Management</option>
+        </select>
+        <br><br><br>
+        Choose Gender : 
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="Others">
+        <label for="others">Others</label>
+        <br> <br> <br>
+        <label for="mnumber">Mobile Number</label>
+        <input type="text" id="countrycode" value="+91" size="1">
+        <input type="nuber" id="mnumber" maxlength="10">
+        <br> <br> <br>
+        <label for="emailid">Email Id</label>
+        <input type="email" id="emailid">
+        <br> <br> <br>
+        <label for="password">Create a password</label>
+        <input type="password" id="password" maxlength="15">
+        <br> <br> <br>
+        <input type="button" value="SUBMIT">
+    </form>
+    </div>
+
+</body>
+</html>
