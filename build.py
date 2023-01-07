@@ -2,13 +2,13 @@
 
 import os
 
-HEADER = """# webdev cookbook
+HEADER = """# webdev cookbook\n
 """
 
 BODY = ""
 
-FOOTER = """<hr/>
-Made by Ashish Adikhari"
+FOOTER = """---\n
+Made by Ashish Adikhari, Shivanshu
 """
 
 CWD = os.getcwd()
@@ -37,4 +37,4 @@ generate_body(os.getcwd())
 f = open("README.md", "w+", encoding="utf-8")
 f.write(HEADER)
 f.write(BODY)
-
+f.write(FOOTER)
