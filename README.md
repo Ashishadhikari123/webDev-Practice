@@ -1,1 +1,59 @@
-# webDev-Practice
+# webdev cookbook
+
+- Section-E TT
+    - [timeTable.html](/Section-E TT/timeTable.html)
+- geuAssignment
+    - problem5
+        - [index.html](/geuAssignment/problem5/index.html)
+    - problem6
+        - [index.html](/geuAssignment/problem6/index.html)
+    - problem7
+        - [index.html](/geuAssignment/problem7/index.html)
+    - problem10
+        - [index.html](/geuAssignment/problem10/index.html)
+    - problem9
+        - [index.html](/geuAssignment/problem9/index.html)
+    - problem8
+        - [index.html](/geuAssignment/problem8/index.html)
+    - problem4
+        - [table.html](/geuAssignment/problem4/table.html)
+    - [question1.html](/geuAssignment/question1.html)
+- Simple Signup Page
+    - [index.html](/Simple Signup Page/index.html)
+- addition of 2 numbers
+    - [index.html](/addition of 2 numbers/index.html)
+- sortButtons
+    - [index.html](/sortButtons/index.html)
+- javascript
+    - [index.html](/javascript/index.html)
+- forms
+    - [anujBhaiya.html](/forms/anujBhaiya.html)
+    - [index.html](/forms/index.html)
+- HTML based Resume
+    - [resume.html](/HTML based Resume/resume.html)
+- BMI
+    - [index.html](/BMI/index.html)
+- frames
+    - frames1
+        - [frames3.html](/frames/frames1/frames3.html)
+        - [frames1.html](/frames/frames1/frames1.html)
+        - [frames2.html](/frames/frames1/frames2.html)
+        - [frames.html](/frames/frames1/frames.html)
+- hover
+    - [index.html](/hover/index.html)
+- framesmulti
+    - [framepro5.html](/framesmulti/framepro5.html)
+    - [framepro2.html](/framesmulti/framepro2.html)
+    - [framepro3.html](/framesmulti/framepro3.html)
+    - [framepro1.html](/framesmulti/framepro1.html)
+    - [framepro.html](/framesmulti/framepro.html)
+    - [framepro4.html](/framesmulti/framepro4.html)
+- practical-practice
+    - [form.html](/practical-practice/form.html)
+- table
+    - [table.html](/table/table.html)
+- Simple Nav bar
+    - [index.html](/Simple Nav bar/index.html)
+---
+
+Made by Ashish Adikhari, Shivanshu
