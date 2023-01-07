@@ -1,5 +1,6 @@
 #!/bin/python3
 
+# script to create readme
 import os
 
 HEADER = """# webdev cookbook\n
@@ -7,7 +8,7 @@ HEADER = """# webdev cookbook\n
 
 BODY = ""
 
-FOOTER = """---\n
+FOOTER = """\n---\n
 Made by Ashish Adikhari, Shivanshu
 """
 
