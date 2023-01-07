@@ -54,6 +54,7 @@
     - [table.html](/table/table.html)
 - Simple Nav bar
     - [index.html](/Simple Nav bar/index.html)
+
 ---
 
 Made by Ashish Adikhari, Shivanshu
