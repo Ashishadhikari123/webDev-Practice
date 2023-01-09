@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* global elements */
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem; /* The line-height property specifies the height of a line */
+}
+
+a{
+    text-decoration: none; /* The text-decoration property is mostly used to remove underlines from links */
+    display: inline-block;
+}
+
+ul{
+    list-style: none; /* for removing dots */
+}
+
+/* utility class */
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700; /* The font-weight property sets how thick or thin characters in text should be displayed */
+
+}
+
+.container{
+    max-width: 1080px;
+    margin-inline: auto; /* shorthand property for left and right margin */
+    padding: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    color: white !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+/* top banner */
+.top-banner{
+    /* background-image: url('/assets/asset\ 30.png'); */
+    background-color: #4fb3d4
+}
+
+.banner-text{
+    /* color: white; */
+    padding: 15px 30px;
+    text-align: center;
+}
+
+/* nav */
+
+.company-logo img{
+    width: 200px;
+}
+
+.main-nav{
+    justify-content: space-between;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.hover-link{
+    color: var(--primary-text-color);
+}
+
+.hover-link:hover{
+    color: var(--accent-color);
+    transition: 0.2s ease-out;
+}
+
+/* header section */
+
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 60vw;
+}
+.header-left h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.header-right img{
+    width: 600px;
+}
+
+/* comapny section */
+
+.companies-header{
+    text-align: center;
+}
+
+.logo{
+    height: 45px;
+}
+
+.logos{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* features-section */
+
+.features-section{
+    padding: 80px var(--padding-inline-section) 0px;
+    margin-top: 50px;
+    /* background-image: url('ashish_picture.jpg'); */
+}
+
+.features-header {
+    text-align: center;
+}
+
+.features-header a{
+    margin-top: 20px;
+}
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    margin-top: 50px;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+/* big-features section */
+
+.big-features-section{
+    padding: 30px var(--padding-inline-section) 0px;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-discription{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.class1{
+    margin: 8px 10px;
+}
+/* examples section */
+
+.examples-section{
+    text-align: center;
+    padding: 80px var(--padding-inline-section) 0px;
+    /* background-image: url('ashish_picture.jpg'); */
+}
+
+.examples-area{
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.examples-header{
+    margin-bottom: 20px;
+}
+.examples-header h3,a{
+    margin-bottom: 20px;
+}
+
+.examples-card{
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    /* background-image: url(./assets/asset\ 37.jpeg); */
+    background-size: 300px 300px;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+/* cta section */
+.cta-section-container{
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+}
+
+.cta-section{
+    background-color: #183b54;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+/* footer section */
+
+.link-column{
+    flex-direction: column;
+    gap: 20px;
+}
+
+#footer-id{
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* sub footer section */
+
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.last-footer{
+    justify-content: center;
+    gap: 30px;
+    /* gap: 20px; */
+}
+
+.last-footer a{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
