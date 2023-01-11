@@ -65,6 +65,7 @@ body{
 }
 
 .my-fav{
+    display: grid;
     background-size: 300px;
     background-repeat: no-repeat;
 }
@@ -81,4 +82,22 @@ body{
 h4{
     color: rgb(250, 243, 233);
     text-align: right;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1515px) {
+    .container{
+        flex-direction: column;
+    }
+    .gallery{
+        width: 80%;
+    }
+    .box{
+        grid-column: span 3;
+        background-size: cover;
+    }
+    .my-fav{
+        grid-column: span 3;
+    }
 }
