@@ -1,0 +1,49 @@
+body{
+    height: 500vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.parent{
+    height: 500px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+    "hd hd hd"
+    "me ma ri"
+    "me foo foo";
+    background-color: #2196F3;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#header{
+    grid-area:hd;
+}
+
+#menu{
+    grid-area:me;
+}
+
+#main{
+    grid-area:ma;
+}
+
+#right{
+    grid-area:ri;
+}
+
+#footer{
+    grid-area:foo;
+}
